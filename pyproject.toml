@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gradient-descent"
+version = "0.1.0"
+description = "Simple Gradient Descent Implementation in Python"
+authors = ["Iqbal Maulana <iqbal.maulana@zero-one-group.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.1"
+sympy = "^1.12"
+pydantic = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
