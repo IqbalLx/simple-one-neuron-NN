@@ -18,7 +18,6 @@ class Layer(ABC):
     def name(self) -> str:
         pass
 
-    
     @abstractmethod
     def __str__(self) -> str:
         pass
